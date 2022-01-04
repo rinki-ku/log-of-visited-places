@@ -4,8 +4,7 @@ This repository is using NodeJS, React, Leaflet React, HTML, CSS, SASS etc.
 Frontend: React, Html, SASS, CSS
 Backend: Node.js
 
-## Guidelines
-## Installation
+# Installation
 
 ## Backend - server
 Go inside server folder and do 'npm install'
