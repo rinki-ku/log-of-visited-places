@@ -13,17 +13,17 @@ Clicking on an existing marker shows its properties in a popup window (name, ima
 The popup window allows to edit name and image URL, and to delete the marker.
 Reloading the frontend page loads all markers from the backend REST
 
+## Installation
+
 1. This repository is using NodeJS, React, Leaflet React, HTML, CSS, SASS etc.
 2. Frontend: React, Html, SASS, CSS.
 3. Backend: Node.js
 
-## Installation
-
-## Backend - server
+### Backend - server
 ##### •	Go inside server folder and do 'npm install'
 ##### •	After installing  run the server using 'node .\server.js' or 'nodemon .\server.js' then open chrome and enter http://localhost:4000/maps
 
-## Crud Operations:
+#### Crud Operations:
 1. GET http://localhost:4000/maps
 2. POST http://localhost:4000/map
 3. Delete http://localhost:4000/map/:id 
@@ -31,7 +31,7 @@ Reloading the frontend page loads all markers from the backend REST
 
 #### Once your server is up and running follow below commands to run Frontend
 
-## Client- Frontend 
+### Client- Frontend 
 ##### •	Go to client folder and do 'npm install'
 ##### •	After installing  run 'npm start' it will redirect to http://localhost:3000. 
 ##### •	Used react-leaflet for map
