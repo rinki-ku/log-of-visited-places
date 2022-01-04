@@ -6,7 +6,7 @@ Backend: Node.js
 
 # Installation
 
-## Backend - server
+# Backend - server
 Go inside server folder and do 'npm install'
 After installing  run the server using 'node .\server.js' or 'nodemon .\server.js' then open chrome and enter http://localhost:4000/maps
 
@@ -16,13 +16,9 @@ After installing  run the server using 'node .\server.js' or 'nodemon .\server.j
 3. Delete http://localhost:4000/map/:id 
 4. Put/Update http://localhost:4000/map/:id 
 
-
 Once your server is up and running follow below commands to run Frontend
 
-## Client- Frontend 
+# Client- Frontend 
 Go to client folder and do 'npm install'
 After installing  run 'npm start' it will redirect to http://localhost:3000. 
 Used react-leaflet for map
-
-
-
